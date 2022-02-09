@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #0f766e;
+    --text-color: #f1f5f9;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+}
+
+.btn {
+    margin: 2rem;
+    padding: 5px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+
+.btn-primary {
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+.btn-secondary {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.center {
+    text-align: center;
+}
+
+.content {
+    margin-top: 5rem;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    padding: 20px;
+    font-weight: bold;
+    height: 55px;
+    font-size: 2rem;
+}
+
+.navbar .icon {
+    color: var(--text-color);
+}
