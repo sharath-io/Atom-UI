@@ -7,9 +7,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Avatar</title>
   <link rel="stylesheet" href="avatar.css">
+  <script src="https://kit.fontawesome.com/0b01ac136a.js" crossorigin="anonymous">
+  </script>
 </head>
 
 <body>
+
+  <!-- nav bar -->
+  <nav class="navigation container">
+    <div class="nav-brand">
+      <a href="index.html" class="icon"><i class="fas fa-atom"></i></a>
+      Atom UI
+    </div>
+
+    <ul class="list-non-bullet nav-list">
+      <li class="list-item-inline">
+        <a class="link" href="../index.html">Home</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link link-active" href="avatar.html">Documentation</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://github.com/sharath-io/Atom-UI">Github</a>
+      </li>
+    </ul>
+  </nav>
 
   <aside class="sidebar">
     <ul>
@@ -22,16 +44,27 @@
       <li><a href="./input.html">Input</a></li>
     </ul>
   </aside>
-  <div class="body-text">
-    <h2>Square Avatars</h2>
-    <img class="avatar size-s" src="https://i.pravatar.cc/400?img=65">
-    <img class="avatar size-m" src="https://i.pravatar.cc/400?img=13">
-    <img class="avatar size-l" src="https://i.pravatar.cc/400?img=2">
 
+  <div class="body-text">
+    <h1>Avatars</h1>
+    <p class="description">The Avatar component is used to represent a user, and displays the profile picture, initials
+      or fallback icon.</p>
+    <h2>Square Avatars</h2>
+    <div class="avatar-container">
+      <img class="avatar size-s" src="https://i.pravatar.cc/400?img=65">
+      <img class="avatar size-m" src="https://i.pravatar.cc/400?img=13">
+      <img class="avatar size-l" src="https://i.pravatar.cc/400?img=2">
+    </div>
+    <p class="description">Add the avatar class to img element. There are 3 additional sizes available, including avatar
+      small, avatar medium, and avatar large.</p>
     <h2>Round Avatars</h2>
-    <img class="avatar size-s round" src="https://i.pravatar.cc/400?img=65">
-    <img class="avatar size-m round" src="https://i.pravatar.cc/400?img=13">
-    <img class="avatar size-l round" src="https://i.pravatar.cc/400?img=2">
+    <div class="avatar-container">
+      <img class="avatar size-s round" src="https://i.pravatar.cc/400?img=65">
+      <img class="avatar size-m round" src="https://i.pravatar.cc/400?img=13">
+      <img class="avatar size-l round" src="https://i.pravatar.cc/400?img=2">
+    </div>
+    <p class="description">Included round class in the above example, here avatars appear in circle, that is achieved
+      using <span class="highlight">border-radius: 50%</span></p>
   </div>
 </body>
 

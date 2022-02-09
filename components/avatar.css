@@ -25,3 +25,12 @@
   width: 10rem;
   height: 10rem;
 }
+
+.avatar-container {
+  border: solid var(--primary-color);
+  height: 250px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
