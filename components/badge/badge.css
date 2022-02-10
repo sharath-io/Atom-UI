@@ -6,34 +6,27 @@
     display: flex;
 }
 
-.avatar-figure-l {
+.avatar-common {
     position: relative;
     border: none;
     outline: none;
     color: var(--primary-color);
     background-color: none;
+}
+
+.avatar-figure-l {
     width: 10rem;
     height: 10rem;
     margin-left: 5px;
 }
 
 .avatar-figure-m {
-    position: relative;
-    border: none;
-    outline: none;
-    color: var(--primary-color);
-    background-color: none;
     width: 6rem;
     height: 6rem;
     margin-left: 15px;
 }
 
 .avatar-figure-s {
-    position: relative;
-    border: none;
-    outline: none;
-    color: var(--primary-color);
-    background-color: none;
     width: 3rem;
     height: 3rem;
     margin-left: 15px;
