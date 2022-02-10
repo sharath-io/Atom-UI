@@ -48,12 +48,8 @@
     margin-left: 30px;
 }
 
-.avatar-badge {
-    display: flex;
-    padding: 1rem;
-}
 
-.avatar-button-badge-l {
+.avatar-badge-l {
     position: absolute;
     top: -10px;
     right: -10px;
@@ -68,7 +64,7 @@
     border: solid var(--text-color);
 }
 
-.avatar-button-badge-m {
+.avatar-badge-m {
     position: absolute;
     bottom: -10px;
     right: -10px;
@@ -83,7 +79,7 @@
     border: solid var(--text-color);
 }
 
-.avatar-button-badge-s {
+.avatar-badge-s {
     position: absolute;
     bottom: -10px;
     right: -10px;
