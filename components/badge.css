@@ -1,0 +1,134 @@
+@import url("../styles.css");
+@import url("avatar.css");
+
+
+.badge-container {
+    display: flex;
+}
+
+.avatar-button-l {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: var(--primary-color);
+    background-color: none;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 5px;
+}
+
+.avatar-button-m {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: var(--primary-color);
+    background-color: none;
+    width: 6rem;
+    height: 6rem;
+    margin-left: 30px;
+}
+
+.avatar-button-s {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: var(--primary-color);
+    background-color: none;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 30px;
+}
+
+.avatar-badge {
+    display: flex;
+    padding: 1rem;
+}
+
+.avatar-button-badge-l {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid var(--text-color);
+}
+
+.avatar-button-badge-m {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid var(--text-color);
+}
+
+.avatar-button-badge-s {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--notification-color);
+    color: var(--text-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid var(--text-color);
+}
+
+
+/* Icon CSS */
+.icon-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    color: var(--primary-color);
+    padding: 1rem;
+    margin: 15px;
+}
+
+.icon-button:hover {
+    cursor: pointer;
+}
+
+.icon-button-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--notification-color);
+    color: var(--text-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
