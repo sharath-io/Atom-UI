@@ -107,3 +107,29 @@ body {
 .highlight {
     font-weight: bold;
 }
+
+/* frequently used css */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.size-s {
+    width: 3rem;
+    height: 3rem;
+}
+
+.size-m {
+    width: 6rem;
+    height: 6rem;
+}
+
+.size-l {
+    width: 10rem;
+    height: 10rem;
+}
