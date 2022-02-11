@@ -1,0 +1,137 @@
+:root {
+    --primary-color: #0f766e;
+    --text-color: #f1f5f9;
+    --notification-color: #dc2626;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+.btn {
+    margin: 2rem;
+    padding: 0.5rem;
+    border: solid var(--primary-color);
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+
+.btn-primary {
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+.btn-secondary {
+    color: var(--primary-color);
+    border: 0.15rem solid var(--primary-color);
+}
+
+.center {
+    text-align: center;
+}
+
+.content {
+    margin-top: 5rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navigation .nav-list {
+    text-align: right;
+}
+
+.navigation .link {
+    color: var(--text-color);
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.navigation i {
+    color: var(--text-color);
+}
+
+.navigation a{
+    font-size: 1.25rem;
+}
+
+.sidebar {
+    position: absolute;
+    left: 0;
+    top: 3rem;
+    padding-top: 3rem;
+}
+
+.sidebar li {
+    padding: 1rem;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.sidebar li a {
+    color: var(--primary-color);
+}
+
+.body-text {
+    margin-left: 15rem;
+}
+
+.description {
+    font-size: 1.25rem;
+
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+/* frequently used css */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.size-s {
+    width: 3rem;
+    height: 3rem;
+}
+
+.size-m {
+    width: 6rem;
+    height: 6rem;
+}
+
+.size-l {
+    width: 10rem;
+    height: 10rem;
+}

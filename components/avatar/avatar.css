@@ -1,0 +1,12 @@
+@import url("../../styles.css");
+
+.avatar {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.avatar-container {
+  border: solid var(--primary-color);
+  height: 15rem;
+  width: 30rem;
+}
