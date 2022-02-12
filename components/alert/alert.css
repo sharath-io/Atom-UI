@@ -5,12 +5,12 @@
     padding: 1rem;
     margin: 1rem;
     border: solid #e0e0e0;
-    border-width: 2px;
+    border-width: 0.15rem;
     width: 70rem;
 }
 
 .alert {
-    border: solid 1px;
+    border: solid 0.15rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
     margin-bottom: 1rem;
@@ -18,54 +18,54 @@
 }
 
 .alert-primary {
-    color: #084298;
-    background-color: #cfe2ff;
-    border-color: #b6d4fe;
+    color: var(--alert-primary-color);
+    background-color: var(--alert-primary-background);
+    border-color: var(--alert-primary-border);
 }
 
 .alert-success {
-    color: #0f5132;
-    background-color: #d1e7dd;
-    border-color: #badbcc;
+    color: var(--alert-success-color);
+    background-color: var(--alert-success-background);
+    border-color: var(--alert-success-border);
 }
 
 .alert-danger {
-    color: #842029;
-    background-color: #f8d7da;
-    border-color: #f5c2c7;
+    color: var(--alert-danger-color);
+    background-color: var(--alert-danger-background);
+    border-color: var(--alert-danger-border);
 }
 
 .alert-warning {
-    color: #664d03;
-    background-color: #fff3cd;
-    border-color: #ffecb5;
+    color: var(--alert-warning-color);
+    background-color: var(--alert-warning-background);
+    border-color: var(--alert-warning-border);
 }
 
 .outline-primary {
-    color: #084298;
-    border-color: #b6d4fe;
+    color: var(--alert-primary-color);
+    border-color: var(--alert-primary-border);
 }
 
 .outline-success {
-    color: #0f5132;
-    border-color: #badbcc;
+    color: var(--alert-success-color);
+    border-color: var(--alert-success-border);
 }
 
 .outline-danger {
-    color: #842029;
-    border-color: #f5c2c7;
+    color: var(--alert-danger-color);
+    border-color: var(--alert-danger-border);
 }
 
 .outline-warning {
-    color: #664d03;
-    border-color: #ffecb5;
+    color: var(--alert-warning-color);
+    border-color: var(--alert-warning-border);
 }
 
-.alert-frame{
+.alert-frame {
     position: relative;
     padding: 1rem;
     margin: 1rem;
     border: solid #e0e0e0;
-    border-width: 2px;
+    border-width: 0.15rem;
     width: 70rem;
 }
