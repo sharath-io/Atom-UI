@@ -108,6 +108,7 @@ body {
 
 .highlight {
     font-weight: bold;
+    color: var(--primary-color);
 }
 
 /* frequently used css */
