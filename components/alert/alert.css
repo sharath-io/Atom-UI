@@ -60,12 +60,3 @@
     color: var(--alert-warning-color);
     border-color: var(--alert-warning-border);
 }
-
-.alert-frame {
-    position: relative;
-    padding: 1rem;
-    margin: 1rem;
-    border: solid var(--alert-container-border);
-    border-width: 0.15rem;
-    width: 70rem;
-}
