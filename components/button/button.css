@@ -1,0 +1,82 @@
+@import url("../../styles.css");
+
+.bt {
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+}
+
+.btn-secondary {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    border: solid 0.1rem var(--primary-color);
+}
+
+.btn-search {
+    text-align: right;
+}
+
+.btn-menu {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn-link {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: none;
+    font-size: 1rem;
+}
+
+.btn-link a:hover {
+    text-decoration: underline;
+}
+
+
+.float-container {
+    position: relative;
+    text-align: end;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: solid var(--alert-container-border);
+    border-width: 0.15rem;
+    width: 70rem;
+    height: 4rem;
+}
+
+.btn-float {
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-float:hover {
+    opacity: 0.9;
+}
+
+.button-frame{
+    position: relative;
+    padding: 1rem;
+    margin: 1rem;
+    border: solid var(--alert-container-border);
+    border-width: 0.15rem;
+    width: 70rem;
+}

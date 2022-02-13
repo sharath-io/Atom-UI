@@ -1,8 +1,4 @@
-:root {
-    --primary-color: #0f766e;
-    --text-color: #f1f5f9;
-    --notification-color: #dc2626;
-}
+@import url("css/variables.css");
 
 a {
     text-decoration: none;
@@ -108,6 +104,7 @@ body {
 
 .highlight {
     font-weight: bold;
+    color: var(--primary-color);
 }
 
 /* frequently used css */
