@@ -72,7 +72,7 @@ body {
     color: var(--text-color);
 }
 
-.navigation a{
+.navigation a {
     font-size: 1.25rem;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .body-text {
-    margin-left: 15rem;
+    margin: 0rem 15rem;
 }
 
 .description {
@@ -131,4 +131,8 @@ body {
 .size-l {
     width: 10rem;
     height: 10rem;
+}
+
+.image {
+    border: 0.2rem solid var(--primary-color);
 }
