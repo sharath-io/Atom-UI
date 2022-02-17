@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input | Atom</title>
+    <link rel="stylesheet" href="input.css">
+    <script src="https://kit.fontawesome.com/0b01ac136a.js" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navigation container">
+        <div class="nav-brand">
+            <a href="../../index.html" class="icon"><i class="fas fa-atom"></i></a>
+            Atom UI
+        </div>
+
+        <ul class="list-non-bullet nav-list">
+            <li class="list-item-inline">
+                <a class="link" href="../../index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="avatar.html">Documentation</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/sharath-io/Atom-UI">Github</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- sidebar -->
+    <aside class="sidebar">
+        <ul>
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="../alert/alert.html">Alert</a></li>
+            <li><a href="../button/button.html">Button</a></li>
+            <li><a href="../card/card.html">Card</a></li>
+            <li><a href="../image/image.html">Image</a></li>
+            <li><a href="input.html">Input</a></li>
+        </ul>
+    </aside>
+
+    <div class="body-text">
+
+        <h2>Primary inputs</h2>
+        <p class="description">Text box with some placeholder to take inputs from user for example: Name, contact no and
+            for login validations: username and password</p>
+        <div class="input-container">
+            <label class="description">Name</label>
+            <input class="input-box" type="text" placeholder="Enter full name">
+            <label class="description">Number</label>
+            <input class="input-box" type="number" placeholder="Enter 10 digit number">
+            <label class="description">Password</label>
+            <input class="input-box" type="password" placeholder="max 8 characters">
+        </div>
+
+        <h2>Textbox with validation and error style</h2>
+        <p class="description">You can use "error-input" class for input textbox css and "error-message" for css on
+            error message </p>
+        <div class="input-container">
+            <label class="description">Enter Password</label>
+            <input class="input-box error-input" type="password" placeholder="*******">
+            <label class="description">Confirm(re-enter) Password</label>
+            <input class="input-box error-input" type="password" placeholder="*****">
+            <span class="error-message"><i class="far fa-times-circle"></i>Passwords doesn't match</span>
+        </div>
+
+        <p class="description">You can use "correct-input" class for css on input textbox and "correct-message" for css on
+            correct message </p>
+        <div class="input-container">
+            <label class="description">Enter Password</label>
+            <input class="input-box correct-input" type="password" placeholder="*********">
+            <label class="description">Confirm(re-enter) Password</label>
+            <input class="input-box correct-input" type="password" placeholder="*********">
+            <span class="correct-message"><i class="far fa-check-circle"></i>Passwords matched</span>
+        </div>
+
+        <div class="input-container">
+            <label class="description">Username</label>
+            <input class="input-box" placeholder="Entire unique username">
+            <span class="correct-message"><i class="far fa-check-circle"></i>User name is not taken</span>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
