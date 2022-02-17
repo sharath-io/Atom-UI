@@ -135,4 +135,5 @@ body {
 
 .image {
     border: 0.2rem solid var(--primary-color);
+    max-width: 40rem;
 }
