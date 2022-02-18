@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Sharath Edulakanti">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image | Atom</title>
+    <link rel="stylesheet" href="image.css">
+    <script src="https://kit.fontawesome.com/0b01ac136a.js" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav class="navigation container">
+        <div class="nav-brand">
+            <a href="../../index.html" class="icon"><i class="fas fa-atom"></i></a>
+            Atom UI
+        </div>
+
+        <ul class="list-non-bullet nav-list">
+            <li class="list-item-inline">
+                <a class="link" href="../../index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="../avatar/avatar.html">Documentation</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/sharath-io/Atom-UI">Github</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- sidebar -->
+    <aside class="sidebar">
+        <ul>
+            <li><a href="../avatar/avatar.html">Avatar</a></li>
+            <li><a href="../badge/badge.html">Badge</a></li>
+            <li><a href="../alertalert.html">Alert</a></li>
+            <li><a href="../button/button.html">Button</a></li>
+            <li><a href="../card/card.html">Card</a></li>
+            <li><a href="image.html">Image</a></li>
+            <li><a href="../input/input.html">Input</a></li>
+        </ul>
+    </aside>
+
+    <div class="body-text">
+
+        <h1>Responsive image </h1>
+        <p class="description">Responsive images will automatically adjust to fit the size of the screen.
+            Resize the browser window to see the responsive effect:</p>
+
+        <img class="image img-responsive"
+            src="https://images.unsplash.com/photo-1462651567147-aa679fd1cfaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="mountains">
+        <p class="description">To make any image responsive add
+            <span class="highlight"> img-responsive </span>class</p>
+        <p class=" description">Here code snippets are not responsive</p>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2815%2C118%2C110%2C1%29&t=seti&wt=none&l=auto&width=622&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E"
+            style="width: 640px; height: 204px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+
+        <h1>Round Image</h1>
+        <img class="image img-round"
+            src="https://images.unsplash.com/photo-1462651567147-aa679fd1cfaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="mountains">
+        <p class="description">To make round images use <span class="highlight"> img-round </span> class</p>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2815%2C118%2C110%2C1%29&t=seti&wt=none&l=auto&width=640&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E"
+            style="width: 640px; height: 204px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+</body>
+
+</html>

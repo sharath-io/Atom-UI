@@ -1,0 +1,13 @@
+@import url("../../styles.css");
+
+.error-message {
+    color: var(--notification-color);
+}
+
+.correct-input {
+    border: 0.3rem solid var(--primary-color);
+}
+
+.correct-message {
+    color: var(--primary-color);
+}
