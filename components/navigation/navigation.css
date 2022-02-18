@@ -1,0 +1,26 @@
+@import url("../../styles.css");
+
+.navbar {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--text-color);
+    width: 100%;
+    margin: 0;
+}
+
+.nav-heading {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.nav-comp-list {
+    text-align: right;
+    font-size: 1rem;
+    list-style: none;
+}
+
+.nav-inline {
+    display: inline;
+    padding: 0 0.5rem;
+}
