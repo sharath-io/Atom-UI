@@ -1,0 +1,15 @@
+.star-icon {
+    font-size: 1rem;
+}
+
+.fill {
+    color: var(--star-fill);
+}
+
+.rating-container {
+    width: 7rem;
+    height: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    border: 0.2rem solid var(--primary-color);
+}
