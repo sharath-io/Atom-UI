@@ -1,0 +1,16 @@
+.slider-label{
+    font-size: 1.4rem;
+}
+
+.slider{
+    width: 30%;
+    border-radius: 10%;
+}
+
+.slider-values{ 
+    margin-top: 1rem;
+    padding: 0.2rem;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
