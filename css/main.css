@@ -1,0 +1,10 @@
+@import url("styles.css");
+
+@import url("../components/page_styles/alert.css");
+@import url("../components/page_styles/avatar.css");
+@import url("../components/page_styles/badge.css");
+@import url("../components/page_styles/button.css");
+@import url("../components/page_styles/image.css");
+@import url("../components/page_styles/input.css");
+@import url("../components/page_styles/navigation.css");
+@import url("../components/page_styles/rating.css");

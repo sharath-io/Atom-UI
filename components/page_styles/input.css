@@ -1,5 +1,3 @@
-@import url("../../styles.css");
-
 .error-message {
     color: var(--notification-color);
 }
