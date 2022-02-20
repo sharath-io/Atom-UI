@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Sharath Edulakanti">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation | Atom</title>
+    <title>Slider | Atom</title>
     <link rel="stylesheet" href="../../css/main.css">
     <script src="https://kit.fontawesome.com/0b01ac136a.js" crossorigin="anonymous">
     </script>
@@ -46,32 +46,34 @@
             <li><a href="navigation.html">Navigation</a></li>
             <li><a href="rating.html">Rating</a></li>
             <li><a href="slider.html">Slider</a></li>
-
         </ul>
     </aside>
-    <div class="body-text">
-        <h1>Navigation</h1>
 
-        <div class="navbar">
-            <div class="nav-heading">
-                Company-name
+    <div class="body-text">
+        <h1> Slider</h1>
+
+        <div class="slider-container">
+            <label class="slider-label">Price Range: </label>
+            <div class="slider-values">
+                    <span>99</span>
+                    <span>4999</span>
+                    <span>9999</span>
             </div>
-            <ul class="nav-comp-list">
-                <li class="nav-inline">Home </li>
-                <li class="nav-inline">Contacts</li>
-                <li class="nav-inline">Payments</li>
-                <li class="nav-inline">FAQ</li>
-            </ul>
+            <input type="range" class="slider" min="99" max="2999" value="999">
         </div>
 
-        <p class="description">Can use below classes for navbar in your project</p>
-
+        <p class="description">
+            Use the following classes for Slider in your project:
+        </p>
         <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%2815%2C118%2C110%2C1%29&t=material&wt=none&l=auto&width=541&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=12px&ph=36px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=194%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navbar%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-heading%2522%253ECompany-name%253C%252Fdiv%253E%250A%2520%2520%253Cul%2520class%253D%2522nav-comp-list%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-inline%2522%253EHome%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-inline%2522%253EContacts%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-inline%2522%253EPayments%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-inline%2522%253EFAQ%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
-            style="width: 541px; height: 320px; border:0; transform: scale(1); overflow:hidden;"
+            src="https://carbon.now.sh/embed?bg=rgba%2815%2C118%2C110%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522slider-label%2522%253EPrice%2520Range%253A%2520%253C%252Flabel%253E%250A%2520%2520%253Cdiv%2520class%253D%2522slider-values%2522%253E%250A%2520%2520%2520%2520%2520%253Cli%253E99%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253E4999%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253E9999%253C%252Fli%253E%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522slider%2522%2520min%253D%252299%2522%2520max%253D%25222999%2522%2520value%253D%2522999%2522%253E%250A%253C%252Fdiv%253E"
+            style="width: 732px; height: 348px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
         </iframe>
+
     </div>
+
+
 </body>
 
 </html>

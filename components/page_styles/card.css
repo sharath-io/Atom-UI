@@ -1,0 +1,153 @@
+.card {
+    width: 20rem;
+    height: 80%;
+    border: 0.2rem solid var(--primary-color);
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.card-heading {
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tag {
+    margin: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.card-description {
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+.price {
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+.deal {
+    color: var(--secondary-color);
+}
+
+.deal-price {
+    color: var(--notification-color);
+    font-size: 2rem;
+}
+
+.card-button {
+    text-align: center;
+}
+
+.card-button button {
+    margin-top: 1.5rem;
+    border: 0.15rem solid var(--secondary-color);
+    background-color: var(--bg-color);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 8rem;
+}
+
+.card-button .card-buy {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.card-button .card-buy:hover {
+    background-color: var(--secondary-color);
+    transition: 0ms;
+}
+
+/* card shadow  */
+.card-shadow:hover {
+    box-shadow: 0.5rem 0.25rem 0.25rem var(--primary-color);
+}
+
+/* dismiss card css */
+.dismiss-card {
+    position: absolute;
+    color: var(--text-color);
+    width: 1.5rem;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: rem;
+    font-size: 1.5rem;
+}
+
+/* badge card css */
+.card-badge {
+    position: absolute;
+    color: var(--text-color);
+    position: absolute;
+    width: 7rem;
+    background-color: var(--notification-color);
+    border: 0.2rem solid var(--notification-color);
+    top: rem;
+    left: -0.1rem;
+    padding: rem;
+    font-size: 1.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+}
+
+
+/* Text only card */
+.text-only-card {
+    width: 20rem;
+    height: 15rem;
+    border: 0.2rem solid var(--primary-color);
+    text-align: center;
+}
+
+
+/* Text overlay */
+.card-overlay {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--bg-color);
+    opacity: 85%;
+    color: var(--notification-color);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
+/* Horizontal card */
+.horizontal-card {
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+    height: 70%;
+    border: 0.2rem solid var(--primary-color);
+}
+
+.horizontal-card .card-image {
+    width: 20rem;
+    height: 100%;
+    display: flex;
+}
+
+.horizontal-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
