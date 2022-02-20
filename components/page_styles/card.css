@@ -48,7 +48,7 @@
 
 .card-button button {
     margin-top: 1.5rem;
-    border: 1px solid var(--secondary-color);
+    border: 0.15rem solid var(--secondary-color);
     background-color: var(--bg-color);
     padding: 0.5rem;
     border-radius: 1rem;
