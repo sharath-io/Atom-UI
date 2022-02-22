@@ -157,6 +157,8 @@ body {
     background-color: var(--bg-color);
 }
 
-.card-frame {
-    width: 100%;
+.iframe-box{ 
+    border:0; 
+    transform: scale(1);
+    overflow:hidden;
 }
