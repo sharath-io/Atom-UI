@@ -93,15 +93,12 @@
     width: 7rem;
     background-color: var(--notification-color);
     border: 0.2rem solid var(--notification-color);
-    top: rem;
     left: -0.1rem;
     padding: rem;
     font-size: 1.5rem;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
-
 }
-
 
 /* Text only card */
 .text-only-card {
@@ -110,7 +107,6 @@
     border: 0.2rem solid var(--primary-color);
     text-align: center;
 }
-
 
 /* Text overlay */
 .card-overlay {
@@ -129,7 +125,6 @@
     font-size: 3rem;
     font-weight: bolder;
 }
-
 
 /* Horizontal card */
 .horizontal-card {
