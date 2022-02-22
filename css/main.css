@@ -1,4 +1,6 @@
-@import url("styles.css");
+@import url("variables.css");
+@import url("docs.css");
+
 
 @import url("../components/page_styles/alert.css");
 @import url("../components/page_styles/avatar.css");
