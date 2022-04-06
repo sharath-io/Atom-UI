@@ -57,25 +57,24 @@
             have been popularized by mobile and desktop operating systems.Generally they are used as an interface
             feedback pattern for informing the user about the results of an action.
         </p>
-        <button class="bt btn-primary" id="top-toast">Top Toast</button>
-        <button class="bt btn-primary" id="bottom-toast">Bottom Toast</button>
+        <h2>Can check live demo of Toasts below</h2>
 
-        <div class="toast top-toast">
+        <button class="bt btn-primary" id="top-toast-id">Top Toast</button>
+        <button class="bt btn-primary" id="bottom-toast-id">Bottom Toast</button>
+
+        <div class="toast top-toast" id="top-content">
             <p class="description toast-element"> This is top toast description
-                <span><i class="fa fa-times"></i></span>
+                <span id="top-toast-close"><i class="fa fa-times"></i></span>
             </p>
         </div>
-        
-        <div class="toast bottom-toast">
+
+        <div class="toast bottom-toast" id="bottom-content">
             <p class="description  toast-element">This is bottom toast description
-                <span><i class="fa fa-times"></i></span>
+                <span id="bottom-toast-close"><i class="fa fa-times"></i></span>
             </p>
         </div>
-
-
     </div>
-
-
+    <script src="../javascript/toast.js" type="text/javascript"></script>
 </body>
 
 </html>
