@@ -19,10 +19,11 @@
 .top-toast{
         top: 7.5rem;
         right: 0.5rem;
+        display: none;
 }
 
 .bottom-toast{
     bottom: 7.5rem;
     left: 0.5rem;
+    display: none;
 }
-
