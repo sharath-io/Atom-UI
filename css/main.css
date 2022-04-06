@@ -2,14 +2,14 @@
 @import url("docs.css");
 
 
-@import url("../components/page_styles/alert.css");
-@import url("../components/page_styles/avatar.css");
-@import url("../components/page_styles/badge.css");
-@import url("../components/page_styles/button.css");
-@import url("../components/page_styles/image.css");
-@import url("../components/page_styles/input.css");
-@import url("../components/page_styles/navigation.css");
-@import url("../components/page_styles/rating.css");
-@import url("../components/page_styles/slider.css");
-@import url("../components/page_styles/card.css");
+@import url("../components/alert/alert.css");
+@import url("../components/avatar/avatar.css");
+@import url("../components/badge/badge.css");
+@import url("../components/button/button.css");
+@import url("../components/image/image.css");
+@import url("../components/input/input.css");
+@import url("../components/navigation/navigation.css");
+@import url("../components/rating/rating.css");
+@import url("../components/slider/slider.css");
+@import url("../components/card/card.css");
 @import url("../components/toast/toast.css");
