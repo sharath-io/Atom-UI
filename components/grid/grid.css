@@ -1,0 +1,36 @@
+.grid-item {
+    width: 10rem;
+    height: 10rem;
+    border: 0.1rem solid var(--secondary-color);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.grid {
+    width: 50%;
+    display: grid;
+    gap: 1rem;
+    justify-items: start;
+    align-content: start;
+}
+
+.grid-container-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-container-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid>.grid-item {
+    background-color: var(--primary-color);
+}
+
+.grid>.grid-item:nth-child(odd) {
+    background-color: var(--text-color);
+}
+
+.iframe-grid {
+    width: 780px;
+    height: 416px;
+}
