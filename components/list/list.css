@@ -1,0 +1,40 @@
+.list-style-square {
+    list-style-type: square;
+}
+
+.list-no-style {
+    list-style-type: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0 0.5rem;
+}
+
+.item-active {
+    font-weight: bold;
+    background-color: var(--text-color);
+}
+
+.list-style-lowercase {
+    list-style-type: lower-alpha;
+}
+
+.list-style-uppercase {
+    list-style-type: upper-alpha;
+}
+
+li:hover {
+    background-color: var(--text-color);
+}
+
+.list-stack {
+    height: 5rem;
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+}
+
+.list-iframe {
+    width: 563px;
+    height: 510px;
+}
