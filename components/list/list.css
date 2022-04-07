@@ -24,9 +24,7 @@
     list-style-type: upper-alpha;
 }
 
-li:hover {
-    background-color: var(--text-color);
-}
+
 
 .list-stack {
     height: 5rem;
