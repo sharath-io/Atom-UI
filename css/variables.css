@@ -27,4 +27,9 @@
 
     --secondary-color: #18181b;
     --background-color-light: #f7feff;
+
+    --text-secondary-color: #424242;
+    --text-error-color: #cc0000;
+    --text-success-color: #4CAF50;
+    --text-warning-color: #FFC107;
 }

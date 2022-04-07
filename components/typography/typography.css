@@ -1,0 +1,80 @@
+.typography-container{
+    border: 1px solid var(--primary-color);
+    padding: 2rem;
+}
+
+.heading-1{
+    font-size:3.5rem; 
+    line-height: 4rem;
+}
+
+.heading-2{
+    font-size:3rem;
+    line-height: 3.5rem;
+}
+.heading-3{
+    font-size:2.5rem;
+    line-height: 3.5rem;
+}
+.heading-4{
+    font-size:2rem;
+    line-height: 2.5rem;
+}
+.heading-5{
+    font-size:1.5rem;
+    line-height: 2rem;
+}
+
+.text-left{
+    text-align:left;
+}
+
+.text-right{
+    text-align:right;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.text-large{
+    font-size: 1.5rem;
+}
+
+.text-normal{
+    font-size: 1rem;  
+}
+
+.text-small{
+    font-size: 0.7rem;
+}
+
+.text{
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+
+.text-primary{
+    color: var(--primary-color);
+}
+
+.text-secondary{
+    color: var(--text-secondary-color);
+}
+
+.text-error{
+    color: var(--text-error-color);
+}
+
+.text-success{
+    color: var(--text-success-color);
+}
+
+.text-warning{
+    color: var(--text-warning-color);
+}
+
+.iframe-typography{
+    width: 609px; 
+    height: 312px;
+}
