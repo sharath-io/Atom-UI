@@ -3,11 +3,11 @@
 
 
 ## Live Links
-* [Toast](https://temp-dev--atom-ui.netlify.app/components/toast/toast.html)
-* [Modal](https://temp-dev--atom-ui.netlify.app/components/modal/modal.html)
-* [Grid](https://temp-dev--atom-ui.netlify.app/components/grid/grid.html)
-* [List](https://temp-dev--atom-ui.netlify.app/components/list/list.html)
-* [Typography](https://temp-dev--atom-ui.netlify.app/components/typography/typography.html)
+* [Toast](https://atom-ui.netlify.app/components/toast/toast.html)
+* [Modal](https://atom-ui.netlify.app/components/modal/modal.html)
+* [Grid](https://atom-ui.netlify.app/components/grid/grid.html)
+* [List](https://atom-ui.netlify.app/components/list/list.html)
+* [Typography](https://atom-ui.netlify.app/components/typography/typography.html)
 
 
 
